@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python -m pytest -vv --html=reports/report.html tests/
+python3 -m pytest -vv --html=reports/report.html tests/

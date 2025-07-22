@@ -16,7 +16,7 @@ This project is developed and tested on the following stack:
 To set up the test environment:
 
 ```bash
-./setup.sh
+source setup.sh
 ```
 
 This script will:
@@ -26,6 +26,7 @@ This script will:
 
 ## Test Execution
 
+Ensure virtual environment is active. If venv is not active, run `source setup.sh` which will reactivate virtual environment.  
 To execute all tests and generate an HTML report:
 
 ```bash
@@ -41,7 +42,7 @@ Expected final result is 9 passed and 5 failed tests.
 
 ## TODO
 
-Planned improvements and tasks:
+Planned improvements:
 
 - [ ] Implement test logger
 - [ ] Capture screenshots on test failure
